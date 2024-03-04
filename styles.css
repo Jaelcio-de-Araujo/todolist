@@ -1,0 +1,74 @@
+.checked {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFF00; /* Amarelo */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Para centralizar verticalmente */
+}
+
+.container {
+  background-color: #1f1f1f; /* Cinza escuro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+h1 {
+  color: #FFFF00; /* Amarelo */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #FFFF00; /* Amarelo */
+}
+
+input[type="text"] {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #FFFF00; /* Amarelo */
+  border: 2px solid #FFFF00; /* Amarelo */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFFF00; /* Amarelo */
+  color: #000000;
+}
+
+fieldset {
+  border: 2px solid #FFFF00; /* Amarelo */
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+legend {
+  color: #FFFF00; /* Amarelo */
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
